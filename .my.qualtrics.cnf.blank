@@ -1,0 +1,25 @@
+[client]
+token=<API_TOKEN>
+survey_key_consent=<CONSENT SURVEY_ID>
+dataCenter=<QUALTRICS DATACENTER>
+fileFormat=csv
+study_filename=smart-r consent.csv #Filename that is being returned from qualtrics for any download from the <API_TOKEN>... probably something like the title
+survey_key_sunday=<SUNDAY_SURVEY_ID>
+survey_key_monday=<MONDAY_SURVEY_ID>
+survey_key_tuesday=<TUESDAY_SURVEY_ID>
+survey_key_wednesday=<WEDNESDAY_SURVEY_ID>
+survey_key_thursday=<THUSDAY_SURVEY_ID>
+survey_key_friday=<FRIDAY_SURVEY_ID>
+survey_key_saturday=<SATURDAY_SURVEY_ID>
+survey_key_baseline=<BASELINE_SURVEY_ID>
+survey_key_30day=<30_DAY_SURVEY_ID>
+
+google_upload_drive_id=<PRODUCTION_GOOGLE_FOLDER_ID>
+google_upload_drive_test_id=<YOUR_PERSONAL_TEST_FOLDER_ID>
+
+#There is also a way to download it using the curl command, substitute the <TEMP> strings in the below command (Remove the angular brackets as well). The parameters shared above can be substituted here:
+
+#curl -X POST -H 'X-API-TOKEN: <API_TOKEN>' -H 'Content-Type: application/json' -d '{surveyId": "<SURVEY_ID>", "format": "csv" }' 'https://<DATA_CENTER>.qualtrics.com/API/v3/responseexports'
+
+# Get Download status
+#curl -X POST -H 'X-API-TOKEN: <API_TOKEN>' -H 'Content-Type: application/json' -d '{"format": "csv" }' 'https://<DATA_CENTER>.qualtrics.com/API/v3/surveys/<SURVEY_ID>/export-responses/'

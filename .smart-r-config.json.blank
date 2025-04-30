@@ -1,0 +1,19 @@
+{
+    "comment_1" : "#This file is a block of json code that comes from GOOGLE when you create a project account. Follow the instructions here:",
+    "comment_2" : "#https://expertbeacon.com/how-to-upload-files-to-google-drive-with-python-in-2023/",
+    "comment_3" : "#To see how to set up a google project account.  Then you'll need to share a directory you have access to with the gserviceaccount.com",
+    "comment_4" : "account you create so it can write to it.",
+    "comment_5" : "It should have the following params",
+
+    "type": "service_account",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_x509_cert_url": "",
+    "universe_domain": ""
+}
