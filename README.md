@@ -21,5 +21,5 @@ Here are the current cron jobs:
 # m h  dom mon dow   command
 30 13 * * * su douglasvbellew -c "/usr/lib/anaconda3/bin/python /home/douglasvbellew/Analyze_AWARE_User_Data_Daily_Prod.py"
 30 15 * * * su douglasvbellew -c "/usr/lib/anaconda3/bin/python /home/douglasvbellew/Reverse_Geocode_Users_Prod.py"
-30 15 * * * su douglasvbellew -c "/usr/lib/anaconda3/bin/python /home/douglasvbellew/Get_SMS_Topic_Cos_Similarity_Top_10_Try_2_Prod.py"
+30 15 * * * su douglasvbellew -c "/usr/lib/anaconda3/bin/python /home/douglasvbellew/Get_SMS_Topic_Cos_Similarity_Top_10_Try_2_1_Prod.py"
 ```
